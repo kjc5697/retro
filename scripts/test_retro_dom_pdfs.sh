@@ -24,9 +24,7 @@ norm="binvol2"
 tkernel="const_e_loss"
 tktimestep="1.0"
 ckernel="point_ckv"
-csamples="1000"
 
-    #--cascade-samples="$csamples" \
 ~/projects/retro/retro/retro_dom_pdfs.py \
     --outdir="~/projects/misc_retro/dom_pdfs/point_ckv" \
     --sim-to-test="upgoing_em_cascade" \
